@@ -4,5 +4,52 @@
 
 }
 .top{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.img{
     background-image: url(image/home.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+#logo{
+    /* width: 80px;
+    height: 80px; */
+    
+}
+.nav .ber{
+    padding-left: 100px;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 28px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+}
+.modifi{
+    color: orange;
+}
+pre{
+    font-size: 24px;
+    color: white;
+    /* font-weight: bold; */
+    text-align: center;
 }
